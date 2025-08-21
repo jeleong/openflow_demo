@@ -11,37 +11,7 @@
   "flowContents" : {
     "comments" : "",
     "componentType" : "PROCESS_GROUP",
-    "connections" : [ {
-      "backPressureDataSizeThreshold" : "1 GB",
-      "backPressureObjectThreshold" : 10000,
-      "bends" : [ ],
-      "componentType" : "CONNECTION",
-      "destination" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "c813bda4-41b9-395b-a86b-9bc56ef6659d",
-        "name" : "Funnel",
-        "type" : "FUNNEL"
-      },
-      "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "52431450-94a2-3378-b6fe-f1fe4e8f10bf",
-      "labelIndex" : 0,
-      "loadBalanceCompression" : "DO_NOT_COMPRESS",
-      "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-      "name" : "",
-      "partitioningAttribute" : "",
-      "prioritizers" : [ ],
-      "selectedRelationships" : [ "success" ],
-      "source" : {
-        "comments" : "",
-        "groupId" : "flow-contents-group",
-        "id" : "9a4b5ba4-83e7-3a30-9e25-1f570a50cc2c",
-        "name" : "GenerateFlowFile",
-        "type" : "PROCESSOR"
-      },
-      "zIndex" : 1
-    } ],
+    "connections" : [ ],
     "controllerServices" : [ ],
     "defaultBackPressureDataSizeThreshold" : "1 GB",
     "defaultBackPressureObjectThreshold" : 10000,
@@ -50,15 +20,7 @@
     "externalControllerServiceReferences" : { },
     "flowFileConcurrency" : "UNBOUNDED",
     "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
-    "funnels" : [ {
-      "componentType" : "FUNNEL",
-      "groupIdentifier" : "flow-contents-group",
-      "identifier" : "c813bda4-41b9-395b-a86b-9bc56ef6659d",
-      "position" : {
-        "x" : -256.0,
-        "y" : 96.0
-      }
-    } ],
+    "funnels" : [ ],
     "identifier" : "flow-contents-group",
     "inputPorts" : [ ],
     "labels" : [ ],
@@ -171,6 +133,6 @@
   "snapshotMetadata" : {
     "author" : "JLEONG",
     "flowIdentifier" : "gitintegration",
-    "timestamp" : 1755740463070
+    "timestamp" : 1755740521441
   }
 }
